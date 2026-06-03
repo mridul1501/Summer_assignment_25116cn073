@@ -1,0 +1,21 @@
+package Day1;
+
+import java.util.*;
+
+public class P1_sumNatural {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number : ");
+
+        int n = input.nextInt();
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            sum = sum + i;
+        }
+        System.out.print(sum);
+    
+    }
+
+}
