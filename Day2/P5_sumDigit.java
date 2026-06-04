@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class p5 {
+public class  P5_sumDigit {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
         System.out.print("Enter the number : ");
