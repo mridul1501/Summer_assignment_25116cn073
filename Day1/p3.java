@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class P3_factorial {
+public class p3 {
     public static void main(String[] args) {
 
         Scanner num = new Scanner(System.in);
