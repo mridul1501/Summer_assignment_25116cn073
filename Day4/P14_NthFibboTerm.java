@@ -1,15 +1,17 @@
 
 package Day4;
 
+
 import java.util.Scanner;
 
-
-public class P13_Fibbo {
-
+public class P14_NthFibboTerm {
+    
     static void Fibbo(int a) {
         int i, n1 = 0, n2 = 1, n3;
         for (i = 0; i < a; i++) {
-            System.out.print(n1 + "\t");
+            if (i == a - 1) {
+                System.out.print(n1 + "\t");
+            }
             n3 = n1 + n2;
             n1 = n2;
             n2 = n3;
