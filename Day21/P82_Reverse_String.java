@@ -1,21 +1,21 @@
+
 import java.util.Scanner;
 
-public class P81_Stringlength {
+
+public class P82_Reverse_String {
+   
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
-
         System.out.print("Enter the string : ");
         String str = num.nextLine();
-
+      
         char[] a = str.toCharArray();
 
-        int count = 0;
-        for (int i = 0; i < a.length; i++) {
-            count++;
+        System.out.print("Reversed String : ");
+        for (int i = a.length - 1; i >= 0; i--) {
+            System.out.print(a[i]);
         }
-        System.out.print("Length of string : " + count);
 
         num.close();
     }
-
 }
