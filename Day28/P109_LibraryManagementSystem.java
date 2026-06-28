@@ -1,10 +1,7 @@
-//PACKAGE FOR DAY 28 ASSIGNMENT
-package Day28;
 
-//IMPORT SCANNER FOR USER INPUT
 import java.util.Scanner;
 
-//STRUCTURE DEFINE 
+
 class Book {
     int id;
     String name;
@@ -12,9 +9,8 @@ class Book {
     int quantity;
 }
 
-// DEFINE CLASS
 public class P109_LibraryManagementSystem {
-    // MAIN FUNCTION
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int l = 500;
